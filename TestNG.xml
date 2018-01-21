@@ -2,7 +2,12 @@
 <suite name="MAVEN TESTING">
 	<test name="Testing some cases">
 		<classes>
-			<class name="com.google.search.SearchTest"></class>
+			<class name="com.google.search.SearchTest">
+				<methods>
+					<include name="searchEmaratech" />
+					<include name="searchBharath" />
+				</methods>
+			</class>
 		</classes>
 	</test>
 </suite>
