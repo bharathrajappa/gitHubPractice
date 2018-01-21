@@ -43,7 +43,7 @@ public void searchEmaratech() {
 	Assert.assertEquals("Emaratech", value);
 }
 
-@Test
+@Test(enabled = false)
 public void clickProductsTab() {
 	
 	GoogleMainPageActions.changeToEnglishLang(driver);
